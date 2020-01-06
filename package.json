@@ -11,9 +11,10 @@
     "s": "nodemon server.js",
     "debug-server": "DEBUG=express:* nodemon server.js"
   },
-  "author": "Wootae Yang",
+  "author": "",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.597.0",
     "bcrypt": "^3.0.7",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
